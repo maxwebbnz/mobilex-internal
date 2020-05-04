@@ -1,0 +1,186 @@
+/* Non Minifed CSS (for marking) */
+
+/* Navbar Items */
+    .mobilex {
+        padding: 3px;
+        font-family: 'cursive', serif;
+        text-align: center;
+    }
+
+    .navbar{
+        border: 1px solid black;
+        border-top-color: white;
+        text-align: center;
+        background-color: white;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+    .navlink{
+        margin-left: 200px;
+    }
+
+    /* Section = Home */
+    #home{
+        color: black;
+        height: 700px;
+    }
+
+    .hometext{
+        text-align: center;
+        padding-top: 200px;
+    }
+
+    .clipartimg{
+        padding-top: 100px;
+    }
+
+    .button{
+        padding: 200px;
+    }
+
+/* Section = Pricing */
+
+            #pricing {
+            background-color: #007bff;
+            padding-top: 20px;
+        }
+
+        .pricingtext{
+            color: white;
+            text-align: center;
+        }
+
+
+        .card-pricing.popular {
+            z-index: 1;
+            border: 3px solid #9e9e9eab;
+        }
+        .card-pricing .list-unstyled li {
+            padding: .5rem 0;
+            color: #000000;
+        }
+
+/* Section = About Mobile X */
+
+        #aboutmobilex{
+            background-color: white;
+            padding-top: 90px;
+            text-align: center;
+            margin-bottom:  20%;
+        }
+        .aboutmobilextext{
+            color: black;
+        }
+
+        .aboutext{
+            padding-top: 200px;
+            padding-right: 100px;
+        }
+
+        .repairimg{
+            padding-top: 100px;
+        }
+/* Section = Footer */
+
+        .footerinfomationtext{
+            text-align: center;
+            padding-bottom: 30px;
+            font-family: 'Manrope', sans-serif;
+        }
+
+     /* Actual Footer */
+            footer{
+                text-align: center;
+                background-color: blueviolet;
+                padding-top: 30px;
+                margin-top: 100px;
+                height: 90px;
+            }
+            .footerbutton{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .footer-mobilex{
+                color:white;
+            }
+
+
+
+
+/* Global CSS */
+
+        *{
+            /*Confirmed font for project */
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .booknowbutton {
+            width: 500px;
+            align-items: center;
+        }
+
+        .vl {
+            border-left: 6px solid black;
+            height: 500px;
+        }
+        .blue{
+            background-color:#007bff;
+        }
+        button {
+            margin: 20px 0;
+            line-height: 34px;
+            position: relative;
+            cursor: pointer;
+            user-select: none;
+            outline:none !important;
+            width:100%;
+        }
+
+        button:active {
+            outline:none;
+        }
+
+        button.ribbon {
+            outline:none;
+            outline-color: transparent;
+        }
+        button.ribbon:before, button.ribbon:after {
+            top: 5px;
+            z-index: -10;
+        }
+        button.ribbon:before {
+            border-color: #53dab6 #53dab6 #53dab6 transparent;
+            left: -25px;
+            border-width: 17px;
+        }
+        button.ribbon:after {
+            border-color: #53dab6 transparent #53dab6 #53dab6;
+            right: -25px;
+            border-width: 17px;
+        }
+
+        button:before, button:after {
+            content: '';
+            position: absolute;
+            height: 0;
+            width: 0;
+            border-style: solid;
+            border-width: 0;
+            outline:none;
+        }
+
+        /* Primary Ribbon CSS */
+        button.btn-primary:before {
+            border-color: #2e6da4 #2e6da4 #2e6da4 transparent;
+        }
+        button.btn-primary:after {
+            border-color: #2e6da4 transparent #2e6da4 #2e6da4;
+        }
+
